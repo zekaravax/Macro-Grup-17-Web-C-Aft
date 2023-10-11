@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to right, #c30404, #fcf3f1);
+  }
+  
+  .form {
+    width: 50%;
+    padding: 40px;
+    color: white;
+  }
+  
+  .form h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-right: 5%;
+  }
+
+  .form h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-left: 5%;
+  }
+  
+  .form h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 70%;
+  }
+  
+  .form input {
+  display: block;
+   width: 80%;
+   margin: auto;
+   margin-top: 20px;
+   padding: 10px;
+   border-radius: 5px;
+   color: white;
+   background-color: transparent;
+  }
+  
+  .form button {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: blue;
+    color: white;
+  }
+  
+  .form a {
+    color: white;
+  }
+  
+  .image img {
+   float: left;
+   width: 100%;
+   height: 100%;
+   margin-left: 30%
+  }
+
+  .login-form {
+    float: right; /* Mengapung ke kanan */
+   }
+   
+  

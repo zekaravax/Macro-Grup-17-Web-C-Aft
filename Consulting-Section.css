@@ -1,0 +1,248 @@
+.ConsultingSection
+{
+    width: 1440px;
+    height: 1637px;
+    position: relative;
+}
+
+.ConsultingSection1
+{
+    width: 1440px;
+    height: 1637px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+}
+
+.Picture
+{
+    width: 969px;
+    height: 735px;
+    left: 708px;
+    top: 0px;
+    position: absolute;
+}
+
+.Picture1
+{
+    width: 1440px;
+    height: 735px;
+    left: 2px;
+    top: 0px;
+    position: absolute
+}
+
+.Frame2
+{
+    width: 1440px;
+    left: 0px;
+    top: 87px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.Picture2
+{
+    width: 1440px;
+    height: 648px;
+    position: relative;
+}
+
+.Rectangle
+{
+    width: 648px;
+    height: 1440px;
+    left: 0px;
+    top: 648px;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    background: linear-gradient(180deg, #BB2525 37%, rgba(187, 37, 37, 0.75) 74%, rgba(187, 37, 37, 0) 100%);
+}
+
+.Text
+{
+    width: 679px;
+    height: 172px;
+    left: 97px;
+    top: 341px;
+    position: absolute;
+}
+
+.Consulting
+{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    font-family: "Poppins";
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Text1
+{
+    width: 564px;
+    height: 57px;
+    left: 1px;
+    top: 115px;
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.Header
+{
+    width: 1440px;
+    height: 88px;
+    left: 2px;
+    top: 0px;
+    position: absolute;
+    background: #2B2A4C;
+}
+
+.HeaderRight
+{
+    left: 945px;
+    top: 38px;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    display: inline-flex;
+}
+
+.NavList
+{
+    height: 15px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.Link
+{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+    display: flex;
+}
+
+.LinkItem
+{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: "Inter";
+    font-weight: 700;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.Logo
+{
+    width: 79px;
+    height: 31px;
+    left: 120px;
+    top: 32px;
+    position: absolute;
+}
+
+.Abuse
+{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+.Shield
+{
+    left: 14px;
+    top: 17px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+.FooterV15
+{
+    width: 1440px;
+    height: 121px;
+    left: 0px;
+    top: 2224px;
+    position: absolute;
+    background: #2B2A4C;
+    border-top: 1px #F1F3F7 solid;
+}
+
+.FooterBottom
+{
+    width: 1145px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    left: 120px;
+    top: 26px;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center; 
+    display: inline-flex;
+}
+
+.Copyright
+{
+    text-align: center;
+    color: #B4B9C9;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.FooterRight
+{
+    width: 544px;
+    height: 24px;
+    position: relative;
+}
+
+.HeaderBottomLeft
+{
+    left: 255px;
+    top: 6px;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    display: inline-flex;
+}
+
+.NavList1
+{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+}
+

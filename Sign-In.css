@@ -1,0 +1,87 @@
+/* Membuat background gradient */
+body {
+    background: linear-gradient(to left, #c20b0b, #f0eff0);
+  }
+  
+  /* Membuat form login */
+  .login-form {
+    position: relative;
+    width: 40%; /* Menentukan lebar form */
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+
+  }
+  
+  /* Membuat judul form */
+  .login-form h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    margin-right: 5%;
+    color: #fff;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    margin-left: 10%;
+    color: #fff;
+  }
+
+  .login-form h3 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 70%;
+  }
+  
+  /* Membuat input field */
+  .login-form input {
+   display: block;
+   width: 80%;
+   margin: auto;
+   margin-top: 20px;
+   padding: 10px;
+   border-radius: 5px;
+   color: white;
+   background-color: transparent;
+  }
+  
+  /* Membuat tombol sign in */
+  .login-form button {
+   display: block;
+   color: white;
+   background-color: blue;
+   width: 80%;
+   margin: auto;
+   margin-top: 20px;
+   padding: 10px;
+   border-radius: 5px;
+  }
+  
+  /* Membuat link sign up */
+  .login-form a {
+   display: block;
+   text-align: center;
+   font-family: Arial, sans-serif;
+   font-size: 14px;
+   color: #fff; 
+   text-decoration: none; /* Menghilangkan garis bawah */
+  }
+  
+  /* Mengatur posisi gambar dan form dengan float */
+  img {
+   float: left; /* Mengapung ke kiri */
+   width: 55%; /* Menentukan lebar gambar */
+   height: 100%;
+
+  }
+  
+  .login-form {
+   float: right; /* Mengapung ke kanan */
+  }
+  
+  
