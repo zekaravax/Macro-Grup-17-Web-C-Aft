@@ -1,0 +1,485 @@
+.ConsultingChat
+{
+    width: 1440px;
+    height: 1289px;
+    position: relative;
+    background: white;
+}
+
+.Header
+{
+    width: 1440px;
+    height: 88px;
+    left: 2px;
+    top: 0px;
+    position: absolute;
+    background: #2B2A4C;
+}
+
+.HeaderRight
+{
+    left: 945px;
+    top: 38px;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    display: inline-flex;
+}
+
+.NavList
+{
+    height: 15px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.Link
+{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+    display: flex;
+}
+
+.LinkItem
+{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: "Inter";
+    font-weight: 700;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.Logo
+{
+    width: 79px;
+    height: 31px;
+    left: 120px;
+    top: 32px;
+    position: absolute;
+}
+
+.Abuse
+{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+.Shield
+{
+    left: 14px;
+    top: 17px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+.IconProfile
+{
+    width: 40px;
+    height: 40px;
+    left: 1349px;
+    top: 24px;
+    position: absolute;
+}
+
+.Group
+{
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Vector
+{
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Vector1
+{
+    width: 33.33px;
+    height: 33.33px;
+    left: 3.33px;
+    top: 3.33px;
+    position: absolute;
+    background: #F8F8F8;
+}
+
+.FooterV15
+{
+    width: 1440px;
+    height: 121px;
+    left: 0px;
+    top: 2224px;
+    position: absolute;
+    background: #2B2A4C;
+    border-top: 1px #F1F3F7 solid;
+}
+
+.FooterBottom
+{
+    width: 1145px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    left: 120px;
+    top: 26px;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center; 
+    display: inline-flex;
+}
+
+.Copyright
+{
+    text-align: center;
+    color: #B4B9C9;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.FooterRight
+{
+    width: 544px;
+    height: 24px;
+    position: relative;
+}
+
+.HeaderBottomLeft
+{
+    left: 255px;
+    top: 6px;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    display: inline-flex;
+}
+
+.NavList1
+{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+}
+
+.Group1
+{
+    width: 1210px;
+    height: 928px;
+    left: 115px;
+    top: 158px;
+    position: absolute;
+}
+
+.Rectangle
+{
+    width: 1210px;
+    height: 928px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    border: 3px #2B2A4C solid;
+}
+
+.Header2
+{
+    width: 1210px;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #BB2525;
+}
+
+.Rectangle1
+{
+    width: 1210px;
+    height: 111px;
+    left: 0px;
+    top: 817px;
+    position: absolute;
+    background: #BB2525;
+    border-radius: 10px;
+}
+
+.Rectangle2
+{
+    width: 900px;
+    height: 60px;
+    left: 210px;
+    top: 842px;
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+}
+
+.Text
+{
+    left: 105px;
+    top: 37px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.Happy
+{
+    width: 50px;
+    height: 50px;
+    left: 25px;
+    top: 847px;
+    position: absolute;
+}
+
+.PlusMath
+{
+    width: 50px;
+    height: 50px;
+    left: 110px;
+    top: 847px;
+    position: absolute;
+}
+
+.Microphone
+{
+    width: 50px;
+    height: 50px;
+    left: 1135px;
+    top: 848px;
+    position: absolute;
+}
+
+.VideoCall
+{
+    width: 50px;
+    height: 50px;
+    left: 975px;
+    top: 18px;
+    position: absolute;
+}
+
+.Search
+{
+    width: 50px;
+    height: 50px;
+    left: 1055px;
+    top: 18px;
+    position: absolute;
+}
+
+.MenuVertical
+{
+    width: 50px;
+    height: 50px;
+    left: 1135px;
+    top: 19px;
+    position: absolute;
+}
+
+.Group2
+{
+    width: 51px;
+    height: 50px;
+    left: 24px;
+    top: 19px;
+    position: absolute;
+}
+
+.Ellipse
+{
+    width: 50px;
+    height: 50px;
+    left: 1px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+}
+
+.Picture
+{
+    width: 51px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Rectangle3
+{
+    width: 308.48px;
+    height: 52px;
+    left: 742.52px;
+    top: 811px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+.TypeHere
+{
+    left: 365px;
+    top: 1025px;
+    position: absolute;
+    text-align: center;
+    color: #B4B9C9;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Group3
+{
+    width: 396px;
+    height: 71px;
+    left: 140px;
+    top: 603px;
+    position: absolute;
+}
+
+.Rectangle4
+{
+    width: 330px;
+    height: 52px;
+    left: 66px;
+    top: 19px;
+    position: absolute;
+    background: #BB2525;
+    border-radius: 8px;
+}
+
+.Text2
+{
+    left: 109px;
+    top: 31px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Group4
+{
+    width: 51px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Ellipse1
+{
+    width: 50px;
+    height: 50px;
+    left: 1px;
+    top: 0px;
+    position: absolute;
+    background: #F1F3F7;
+    border-radius: 9999px;
+}
+
+.Picture1
+{
+    width: 51px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.MaskGroup
+{
+    width: 50px;
+    height: 50px;
+    left: 1225px;
+    top: 730px;
+    position: absolute;
+}
+
+.Ellipse2
+{
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 9999px;
+}
+
+.Picture2
+{
+    width: 53px;
+    height: 50px;
+    left: -3px;
+    top: -0px;
+    position: absolute;
+}
+
+.Group5
+{
+    width: 555px;
+    height: 174px;
+    left: 655px;
+    top: 754px;
+    position: absolute;
+}
+
+.Rectangle5
+{
+    width: 555px;
+    height: 174px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #BB2525;
+    border-radius: 5px;
+}
+
+.Text3
+{
+    width: 461px;
+    height: 143px;
+    left: 23px;
+    top: 16px;
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
+    word-wrap: break-word;
+}

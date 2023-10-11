@@ -246,3 +246,276 @@
     display: flex;
 }
 
+.ContentSection
+{
+    width: 1440px;
+    padding-left: 167px;
+    padding-right: 167px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    left: -1px; top: 817px;
+    position: absolute;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+.Grid
+{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.HeadingH2
+{
+    color: #6D758F;
+    font-size: 30px;
+    font-family: "Poppins";
+    font-weight: 700;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+.Spacer
+{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    opacity: 0;
+}
+
+.Px
+{
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #F1F3F7;
+    border: 1px #6D758F solid;
+}
+
+.Text1
+{
+    left: 4px;
+    top: 7px;
+    position: absolute;
+    text-align: center;
+    color: #6D758F;
+    font-size: 12px;
+    font-family: "Inter";
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 0.96px;
+    word-wrap: break-word;
+}
+
+.Paragraph
+{
+    width: 461.68px;
+    text-align: justify;
+    color: #6D758F;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.Grid1
+{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14px;
+    display: flex;
+}
+
+.ListItem
+{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    display: inline-flex;
+}
+
+.Education
+{
+    width: 40px;
+    height: 30px;
+}
+
+.Display3
+{
+    color: #6D758F;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.AveragePrice
+{
+    width: 40px;
+    height: 30px;
+}
+
+.GoodQuality
+{
+    width: 40px;
+    height: 26px;
+}
+
+.Display4
+{
+    width: 113px;
+}
+
+.Display5
+{
+    color: #6D758F;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.Display6
+{
+    color: #6D758F;
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.Spacer1
+{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    opacity: 0;
+}
+
+.Px1
+{
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #F1F3F7;
+    border: 1px #6D758F solid;
+}
+
+.Text2
+{
+    left: 8px;
+    top: 11.50px;
+    position: absolute;
+    text-align: center;
+    color: #6D758F;
+    font-size: 12px;
+    font-family: "Inter";
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 0.96px;
+    word-wrap: break-word;
+}
+
+.ButtonRow
+{
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: inline-flex;
+}
+
+.PrimaryButton
+{
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: #1053FF;
+    box-shadow: 0px 1px 4px rgba(24.73, 32.61, 60.56, 0.08);
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    display: flex;
+}
+
+.ButtonText
+{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: "Inter";
+    font-weight: 600;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+.LineRoundedArrowRigth
+{
+    width: 12px;
+    height: 12px;
+    position: relative;
+}
+
+.ArrowRigth
+{
+    width: 8.40px;
+    height: 8.24px;
+    left: 1.80px;
+    top: 1.88px;
+    position: absolute;
+}
+
+.Vector
+{
+    width: 4.32px;
+    height: 8.24px;
+    left: 4.08px;
+    top: -0px;
+    position: absolute;
+    border: 1.29px white solid;
+}
+
+.Veector1
+{
+    width: 8.40px;
+    height: 0px;
+    left: 0px;
+    top: 4.12px;
+    position: absolute;
+    border: 1.29px white solid;
+}
+
+.ImageReplace
+{
+    width: 564px;
+    height: 452px;
+    position: relative;
+    background: #BB2525;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.Picture3
+{
+    width: 564px;
+    height: 452px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
