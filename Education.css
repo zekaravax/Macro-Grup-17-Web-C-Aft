@@ -1,0 +1,58 @@
+body,
+html {
+	height: 100%;
+	margin: 0;
+}
+
+nav {
+	align-items: center;
+	background-color: rgb(43, 42, 76);
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+}
+
+#header {
+	background-image: url("Assest/rearview-diverse-people-hugging-each-other.jpg");
+	height: 800px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: 500;
+}
+
+#content {
+    margin: 3.5rem;
+}
+.card-body {
+	background-color: rgb(187, 37, 37);
+    align-content: space-around;
+}
+
+.nav-links-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-color: #2b2a4c;
+}
+
+footer p {
+	color: #b4b9c9;
+}
+
+footer ul {
+	list-style: none;
+}
