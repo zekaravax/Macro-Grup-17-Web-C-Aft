@@ -5,7 +5,7 @@ ul
     padding: 0;
     overflow: hidden;
     background-color: #2B2A4C;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
 }
@@ -35,3 +35,120 @@ li a:hover
     float: left;
 }
 
+body, html
+{
+    height: 1437px;
+    margin: 0;
+    font-family: "Poppins"
+}
+  
+.hero-image
+{
+    background-image: linear-gradient(to right, #BB2525 14%, rgba(187, 37, 37, 0.75) 42%, rgba(187, 37, 37, 0.29) 78%, rgba(187, 37, 37, 0) 100%), url("Assest/beautiful-young-smiling-asian-woman-working-laptop-while-home-office-work-space\ 1.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text
+{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.frame
+{
+    width: 1145px;
+    height: 1364px;
+    background: #BB2525;
+    border-radius: 10px;
+    border: 1px black solid;
+    margin: 125px;
+}
+
+.frame h1
+{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: "Poppins";
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+label[for=name], label[for=age], label[for=gender], label[for=phone], label[for=email], label[for=date], label[for=location], label[for=tr], label[for=wyr]
+{
+    text-align: left;
+    margin-left: 10%;
+    color: white;
+    font-size: 30px;
+    font-family: "Poppins";
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+label[for=male], label[for=female]
+{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Poppins";
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+input[type=text], select, textarea
+{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    resize: vertical;
+}
+
+input[type=checkbox]
+{
+    width: 10%;
+    border: 1px solid #ccc;
+}
+
+footer
+{
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #2B2A4C;
+}
+
+footer p
+{
+    color: #B4B9C9;
+    text-align: center;
+}
+
+footer ul
+{
+    display: flex;
+}
+
+footer ul li a
+{
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 650;
+}
