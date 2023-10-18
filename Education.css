@@ -13,9 +13,10 @@ nav {
     font-size: 1.5rem;
 }
 
-#header {
-	background-image: url("Assest/rearview-diverse-people-hugging-each-other.jpg");
-	height: 800px;
+.hero-image {
+	background: url("Assest/rearview-diverse-people-hugging-each-other.jpg");
+	opacity: 50%;
+	height: 700px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -28,12 +29,13 @@ nav {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: white;
+	color: rgba(187, 37, 37, 37);;
 	font-weight: 500;
 }
 
 #content {
     margin: 3.5rem;
+	gap: 2rem;
 }
 .card-body {
 	background-color: rgb(187, 37, 37);
